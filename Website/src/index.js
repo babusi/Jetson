@@ -352,7 +352,7 @@ const drawRegionsMap = () => {
 
       $(".map-title h2").html(
         '<span class="ti-calendar"></span> Predictions for the month of ' +
-          month
+          month + ' 2019'
       );
       $(".map-title").toggle();
 
@@ -361,7 +361,7 @@ const drawRegionsMap = () => {
 
       var nextmonth = monthNames[current.getMonth()];
       if (month != nextmonth) {
-        $(".warning").show();
+        // $(".warning").show();
       }
     });
   });
